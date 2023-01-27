@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sign In</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+</head>
+<body>
+<div class="sign_in_form">
+    <h2 class="h2_title">Sign In</h2>
+    <div class="form_inputs">
+        <label class="form_label">Email</label>
+        <!--To show error outline please add "error_field" to the class below (like on the commented line below):
+        <input type="email" class="input_field error_field">-->
+        <input type="email" class="input_field">
+        <!--To show error message please add "show" to the class below (like on the commented line below):
+        <p class="error-message show">Please enter valid email</p>-->
+        <p class="error-message">Please enter valid email</p>
+    </div>
+    <div class="form_inputs">
+        <label class="form_label">Password</label>
+        <!--<input type="password" class="input_field show_hide_pass error_field">-->
+        <input type="password" class="input_field show_hide_pass">
+        <!--p class="error-message show">Wrong password</p>-->
+        <p class="error-message">Wrong password</p>
+    </div>
+    <div class="help_links">
+        <form action="">
+            <label class="form_label">
+                <input type="checkbox" class="input_checkbox">Remember me
+            </label>
+        </form>
+        <a href="#" class="form_link">Forgot Password?</a>
+    </div>
+    <button class="create_btn">Create Account</button>
+    <p class="additional_txt">No account? <a href="#" class="form_link">Create one</a></p>
+</div>
+</body>
+</html>

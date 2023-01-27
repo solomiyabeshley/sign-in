@@ -1,0 +1,101 @@
+body {
+  width: fit-content;
+  display: flex;
+  margin: auto;
+  background: #FFFFFF;
+}
+body .sign_in_form {
+  margin-top: 40%;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  color: #3B506C;
+  font-family: "Poppins", serif;
+}
+body .sign_in_form .h2_title {
+  font-size: 18px;
+}
+body .sign_in_form .form_label, body .sign_in_form .form_link, body .sign_in_form .additional_txt {
+  font-size: 12px;
+  line-height: 18px;
+}
+body .sign_in_form .form_label {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+body .sign_in_form .form_inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 23px;
+}
+body .sign_in_form .form_link {
+  text-decoration: none;
+  color: #14A2E2;
+}
+body .sign_in_form .input_checkbox {
+  border: 1.29508px solid #E7E7E7;
+  border-radius: 4px;
+}
+body .sign_in_form input[type=checkbox] {
+  accent-color: #3B506C;
+  border: 1px solid #3B506C;
+}
+body .sign_in_form .error-message {
+  display: none;
+}
+body .sign_in_form .error-message.show {
+  display: block;
+}
+body .sign_in_form .error_field {
+  outline: 1.5px solid #DB6B83;
+}
+body .sign_in_form .error-message {
+  font-size: 10px;
+  line-height: 11px;
+  margin: 0;
+  color: #DB6B83;
+}
+body .sign_in_form .input_field {
+  padding: 6px 8px;
+  color: #3B506C;
+  background: #FCFCFC;
+  border: 1px solid #E7E7E7;
+  border-radius: 6px;
+}
+body .sign_in_form .input_field:focus {
+  outline: 1.5px solid #3B506C;
+}
+body .sign_in_form .show_hide_pass {
+  background-image: url("img/hidden-pass.png");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+body .sign_in_form .show_hide_pass:focus {
+  background-image: url("img/visible-pass.png");
+}
+body .sign_in_form .help_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 24px;
+}
+body .sign_in_form .create_btn {
+  font-size: 12px;
+  line-height: 18px;
+  padding: 10px 24px;
+  color: #FFFFFF;
+  background: #3B506C;
+  opacity: 0.5;
+  border: none;
+  border-radius: 8px;
+}
+body .sign_in_form .create_btn:hover, body .sign_in_form .create_btn:active {
+  opacity: 1;
+}
+body .sign_in_form .additional_txt {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,117 @@
+body {
+  width: fit-content;
+  display: flex;
+  margin: auto;
+  background: #FFFFFF;
+
+  .sign_in_form {
+    margin-top: 40%;
+    width: 270px;
+    display: flex;
+    flex-direction: column;
+    color: #3B506C;
+    font-family: 'Poppins', serif;
+
+    .h2_title {
+      font-size: 18px;
+    }
+
+    .form_label, .form_link, .additional_txt {
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .form_label {
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+
+    .form_inputs {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      padding-bottom: 23px;
+    }
+
+    .form_link {
+      text-decoration: none;
+      color: #14A2E2;
+    }
+
+    .input_checkbox {
+      border: 1.29508px solid #E7E7E7;
+      border-radius: 4px;
+    }
+
+    input[type=checkbox] {
+      accent-color: #3B506C;
+      border: 1px solid #3B506C;
+    }
+
+    .error-message {
+      display: none;
+      &.show {
+        display: block;
+      }
+    }
+
+    .error_field {
+      outline: 1.5px solid #DB6B83;
+    }
+
+
+    .error-message {
+      font-size: 10px;
+      line-height: 11px;
+      margin: 0;
+      color: #DB6B83;
+    }
+
+    .input_field {
+      padding: 6px 8px;
+      color: #3B506C;
+      background: #FCFCFC;
+      border: 1px solid #E7E7E7;
+      border-radius: 6px;
+      &:focus {
+        outline: 1.5px solid #3B506C;
+      }
+    }
+
+
+    .show_hide_pass {
+      background-image: url("img/hidden-pass.png");
+      background-repeat: no-repeat;
+      background-position: right;
+      &:focus {
+        background-image: url("img/visible-pass.png");
+      }
+    }
+
+    .help_links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 24px;
+    }
+
+    .create_btn {
+      font-size: 12px;
+      line-height: 18px;
+      padding: 10px 24px;
+      color: #FFFFFF;
+      background: #3B506C;
+      opacity: 0.5;
+      border: none;
+      border-radius: 8px;
+      &:hover, &:active {
+        opacity: 1;
+      }
+    }
+
+    .additional_txt {
+      text-align: center;
+    }
+  }
+}
